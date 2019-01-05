@@ -7,8 +7,9 @@ public class GameManager : MonoBehaviour
 
 	public static GameManager instance;
     public GameObject Player;
+    public Transform[] railListLeftToRight;
 
-	void Awake()
+    void Awake()
 	{
 		DontDestroyOnLoad(gameObject);
 		if (instance == null)
@@ -16,4 +17,5 @@ public class GameManager : MonoBehaviour
 		else 
 			GameObject.Destroy(gameObject);
 	}
+
 }
