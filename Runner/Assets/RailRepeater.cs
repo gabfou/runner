@@ -37,7 +37,7 @@ public class RailRepeater : MonoBehaviour
         newRail.position = lastRailPos + new Vector3(0,0,distBetweenRail);
         newRail.parent = transform;
         listMesh.Add(newRail);
-        Debug.Log(listMesh.Count);
+        // Debug.Log(listMesh.Count);
     }
  
 

@@ -1,5 +1,7 @@
 Base path: /sgoinfre/goinfre/Perso/gfournie/unity/2018.3.0f1/Unity.app/Contents
 Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=1897 outsize=1385 ok=1
 Cmd: translateComputeKernel
   api=14 insize=1137 outsize=1413 ok=1
 Cmd: initializeCompiler
@@ -10,31 +12,3 @@ Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Unhandled exception: Protocol error - unexpected end of data (did the Editor crash?)
-
-Quitting shader compiler process

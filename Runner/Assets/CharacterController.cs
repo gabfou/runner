@@ -13,10 +13,10 @@ public class CharacterController : MonoBehaviour
 
     void Start()
     {
-        if (railListLeftToRight == null || railListLeftToRight.Length < 1)
-            Debug.LogWarning("No rail set in PlayerController of " + name);
         animator = GetComponent<Animator>();
         railListLeftToRight = GameManager.instance.railListLeftToRight;
+        if (railListLeftToRight == null || railListLeftToRight.Length < 1)
+            Debug.LogWarning("No rail set in PlayerController of " + name);
     }
 
     IEnumerator ChangeRail(int X)
